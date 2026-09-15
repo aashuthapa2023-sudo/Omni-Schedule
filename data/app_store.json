@@ -1,0 +1,610 @@
+{
+  "pages": [
+    {
+      "id": "page-army-fans",
+      "name": "US Army fans AI",
+      "handle": "@usarmyfans_ai",
+      "niche": "US Army Motivation, Brotherhood, Ranger Training, Combat Valor & Patriotism",
+      "nicheCategory": "military",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "US Army fans AI",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        6,
+        12,
+        18,
+        21
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#141d14",
+      "brandColor": "#eab308",
+      "defaultTemplateId": "tactical-stencil-gold",
+      "watermarkText": "US Army fans AI",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.9,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "06:00",
+          "12:00",
+          "18:00",
+          "21:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-04T10:00:00.000Z"
+    },
+    {
+      "id": "page-mindshift",
+      "name": "Mindshift",
+      "handle": "@mindshift",
+      "niche": "Mindshift, Stoic Discipline, Mental Toughness, Habit Transformation & High Performance",
+      "nicheCategory": "stoicism",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Mindshift",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        7,
+        12,
+        17,
+        21
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#0f172a",
+      "brandColor": "#38bdf8",
+      "defaultTemplateId": "modern-editorial",
+      "watermarkText": "Mindshift",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "07:00",
+          "12:00",
+          "17:00",
+          "21:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-06T10:00:00.000Z"
+    },
+    {
+      "id": "page-soulxwhisper",
+      "name": "soulxwhisper",
+      "handle": "@soulxwhisper",
+      "niche": "Untold Feelings, Deep Poetry, Heartbreak, Late Night Solitude & Emotional Reflections",
+      "nicheCategory": "poetry",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "soulxwhisper",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        8,
+        14,
+        20,
+        23
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#27272a",
+      "brandColor": "#f43f5e",
+      "defaultTemplateId": "poetry-typewriter-paper",
+      "watermarkText": "soulxwhisper",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "08:00",
+          "14:00",
+          "20:00",
+          "23:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-07T10:00:00.000Z"
+    },
+    {
+      "id": "page-whisperxsoul",
+      "name": "whisperxsoul",
+      "handle": "@whisperxsoul",
+      "niche": "Untold Feelings, Poetic Melancholy, Raw Longing, Paper Typewriter & Solitude",
+      "nicheCategory": "poetry",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "whisperxsoul",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        9,
+        15,
+        21,
+        23
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#1f1f23",
+      "brandColor": "#fb7185",
+      "defaultTemplateId": "untold-feelings-paper",
+      "watermarkText": "whisperxsoul",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "09:00",
+          "15:00",
+          "21:00",
+          "23:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-08T10:00:00.000Z"
+    },
+    {
+      "id": "page-army-brotherhood",
+      "name": "US Army Brotherhood & Valor",
+      "handle": "@usarmybrotherhood",
+      "niche": "US Army, Brotherhood, Training, Combat Honor, Resilience & Patriotism",
+      "nicheCategory": "military",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "US Army Brotherhood & Valor",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        7,
+        12,
+        18,
+        21
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#141d14",
+      "brandColor": "#eab308",
+      "defaultTemplateId": "tactical-gold-tag",
+      "watermarkText": "US Army Brotherhood & Valor",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.9,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "07:00",
+          "12:00",
+          "18:00",
+          "21:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-05T10:00:00.000Z"
+    },
+    {
+      "id": "page-warrior",
+      "name": "Warrior Ethos & Valor",
+      "handle": "@usarmymotivation_ai",
+      "niche": "Military Motivation, Brotherhood, Ranger Training & Battlefield Discipline",
+      "nicheCategory": "military",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Warrior Ethos & Valor",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        6,
+        12,
+        18,
+        21
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#0b1329",
+      "brandColor": "#f59e0b",
+      "defaultTemplateId": "tactical-stencil-gold",
+      "watermarkText": "Warrior Ethos & Valor",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.9,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "06:00",
+          "12:00",
+          "18:00",
+          "21:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-08T10:00:00.000Z"
+    },
+    {
+      "id": "page-poetry",
+      "name": "Untold Feelings & Deep Poetry",
+      "handle": "@untoldfeelings_poetry",
+      "niche": "Untold Feelings, Heartbreak, Deep Emotional Solitude, Poetry & Raw Motivation",
+      "nicheCategory": "poetry",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Untold Feelings",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        8,
+        14,
+        21,
+        23
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#18181b",
+      "brandColor": "#f43f5e",
+      "defaultTemplateId": "poetry-typewriter-paper",
+      "watermarkText": "Untold Feelings",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "08:00",
+          "14:00",
+          "21:00",
+          "23:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-09T10:00:00.000Z"
+    },
+    {
+      "id": "page-atheism",
+      "name": "The Rational Void",
+      "handle": "@rationalvoid",
+      "niche": "Atheism, Freethought & Scientific Reason",
+      "nicheCategory": "atheism",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "The Rational Void",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        9,
+        15,
+        21
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#0f172a",
+      "brandColor": "#38bdf8",
+      "defaultTemplateId": "modern-editorial",
+      "watermarkText": "The Rational Void",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 3,
+        "preferredTimes": [
+          "09:00",
+          "15:00",
+          "21:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "page-stoic",
+      "name": "The Stoic Citadel",
+      "handle": "@stoiccitadel",
+      "niche": "Stoic Philosophy & Inner Discipline",
+      "nicheCategory": "stoicism",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "The Stoic Citadel",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        7,
+        13,
+        21
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1554188248-986adbb73be4?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#1c1917",
+      "brandColor": "#d97706",
+      "defaultTemplateId": "classical-marble",
+      "watermarkText": "The Stoic Citadel",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.8,
+      "postingCadence": {
+        "postsPerDay": 3,
+        "preferredTimes": [
+          "07:00",
+          "13:00",
+          "21:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-12T10:00:00.000Z"
+    },
+    {
+      "id": "page-cosmos",
+      "name": "Cosmic Pale Blue Dot",
+      "handle": "@palebluedot_sci",
+      "niche": "Astronomy, Cosmos & Deep Space Awe",
+      "nicheCategory": "science",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Cosmic Pale Blue Dot",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        10,
+        16,
+        22
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#020617",
+      "brandColor": "#a855f7",
+      "defaultTemplateId": "dark-glow",
+      "watermarkText": "Cosmic Pale Blue Dot",
+      "watermarkPosition": "bottom-right",
+      "watermarkOpacity": 0.75,
+      "postingCadence": {
+        "postsPerDay": 3,
+        "preferredTimes": [
+          "10:00",
+          "16:00",
+          "22:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "page-cyberpunk",
+      "name": "Cyber Noir Matrix",
+      "handle": "@cybernoirmind",
+      "niche": "Cyberpunk, Future Tech & Digital Philosophy",
+      "nicheCategory": "cyberpunk",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Cyber Noir Matrix",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        11,
+        17,
+        23
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#09090b",
+      "brandColor": "#06b6d4",
+      "defaultTemplateId": "brutalist-bold",
+      "watermarkText": "Cyber Noir Matrix",
+      "watermarkPosition": "bottom-left",
+      "watermarkOpacity": 0.9,
+      "postingCadence": {
+        "postsPerDay": 3,
+        "preferredTimes": [
+          "11:00",
+          "17:00",
+          "23:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-02-01T10:00:00.000Z"
+    },
+    {
+      "id": "page-existential",
+      "name": "The Midnight Abyss",
+      "handle": "@midnightabyss_",
+      "niche": "Dark Academia, Existentialism & Solitude",
+      "nicheCategory": "existentialism",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "The Midnight Abyss",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        8,
+        14,
+        20,
+        23
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#18181b",
+      "brandColor": "#e2e8f0",
+      "defaultTemplateId": "vintage-typewriter",
+      "watermarkText": "The Midnight Abyss",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.7,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "08:00",
+          "14:00",
+          "20:00",
+          "23:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "page-hollywood",
+      "name": "Hollywood Icons & Cinema Legends",
+      "handle": "@hollywoodicons",
+      "niche": "Hollywood Wisdom, Cinema Icons, Resilience & Philosophy",
+      "nicheCategory": "hollywood",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Hollywood Icons & Cinema Legends",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        10,
+        15,
+        20
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#111827",
+      "brandColor": "#f59e0b",
+      "defaultTemplateId": "cinematic-letterbox",
+      "watermarkText": "Hollywood Icons",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 3,
+        "preferredTimes": [
+          "10:00",
+          "15:00",
+          "20:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-02-12T10:00:00.000Z"
+    },
+    {
+      "id": "page-mindfulness",
+      "name": "Mindful Stillness & Zen",
+      "handle": "@mindfulstillness",
+      "niche": "Mindfulness, Zen Wisdom, Clarity & Present Moment Peace",
+      "nicheCategory": "mindfulness",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Mindful Stillness & Zen",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        6,
+        12,
+        18
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#064e3b",
+      "brandColor": "#10b981",
+      "defaultTemplateId": "minimal-sans",
+      "watermarkText": "Mindful Stillness & Zen",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 3,
+        "preferredTimes": [
+          "06:00",
+          "12:00",
+          "18:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-02-14T10:00:00.000Z"
+    },
+    {
+      "id": "page-gym-discipline",
+      "name": "Iron Sanctuary & Savage Discipline",
+      "handle": "@ironsanctuary_raw",
+      "niche": "Bodybuilding, Savage Training, Iron Will & Physical Transformation",
+      "nicheCategory": "gym",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Iron Sanctuary & Savage Discipline",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        5,
+        11,
+        17,
+        20
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#111827",
+      "brandColor": "#ef4444",
+      "defaultTemplateId": "brutalist-bold",
+      "watermarkText": "Iron Sanctuary",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.9,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "05:00",
+          "11:00",
+          "17:00",
+          "20:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-02-16T10:00:00.000Z"
+    },
+    {
+      "id": "page-sigma-apex",
+      "name": "Sigma Apex & Quiet Dominance",
+      "handle": "@sigmaapex_mindset",
+      "niche": "Sigma Mindset, Relentless Ambition, Quiet Mastery & Financial Independence",
+      "nicheCategory": "sigma",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Sigma Apex",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        7,
+        13,
+        19,
+        22
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#0a0a0a",
+      "brandColor": "#e2e8f0",
+      "defaultTemplateId": "modern-editorial",
+      "watermarkText": "Sigma Apex",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "07:00",
+          "13:00",
+          "19:00",
+          "22:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-02-18T10:00:00.000Z"
+    },
+    {
+      "id": "page-dark-academia",
+      "name": "Classic Literature & Dark Academia",
+      "handle": "@darkacademiathoughts",
+      "niche": "Classical Philosophy, Victorian Solitude, Gothic Poetry & Deep Intellect",
+      "nicheCategory": "academia",
+      "fbPageId": "",
+      "fbPageAccessToken": "",
+      "brandName": "Classic Literature & Dark Academia",
+      "autoPilotEnabled": true,
+      "preferredPostingHours": [
+        8,
+        14,
+        20,
+        23
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=150&auto=format&fit=crop&q=80",
+      "coverColor": "#1c1917",
+      "brandColor": "#d4af37",
+      "defaultTemplateId": "vintage-typewriter",
+      "watermarkText": "Dark Academia",
+      "watermarkPosition": "bottom-center",
+      "watermarkOpacity": 0.85,
+      "postingCadence": {
+        "postsPerDay": 4,
+        "preferredTimes": [
+          "08:00",
+          "14:00",
+          "20:00",
+          "23:00"
+        ],
+        "autoScheduleEnabled": true
+      },
+      "connectedStatus": "active",
+      "createdAt": "2025-02-20T10:00:00.000Z"
+    }
+  ],
+  "autoPilotConfigs": {},
+  "scheduledPosts": [],
+  "quotes": [],
+  "usedSignatures": [],
+  "factoryLogs": [],
+  "lastSyncedAt": "2026-09-15T05:18:47.690Z"
+}

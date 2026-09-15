@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="paper-vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#262018" stop-opacity="0.08"/>
+    </radialGradient>
+  </defs>
+
+  <!-- High-Res Watercolor Pressed Paper Texture -->
+  <image href="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=1200&amp;auto=format&amp;fit=crop&amp;q=85&amp;sig=page-1-0-559210" x="0" y="0" width="1080" height="1080" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Subtle Organic Edge Warmth -->
+  <rect x="0" y="0" width="1080" height="1080" fill="url(#paper-vignette)"/>
+
+  <!-- Typewriter Poetry & Motivation Typography -->
+  <g>
+    <text x="540" y="371" text-anchor="middle" font-family="'Special Elite', 'Courier Prime', 'Courier New', monospace" font-size="34" font-weight="700" fill="#111111" letter-spacing="0.2">Even in My hardest</text><text x="540" y="422" text-anchor="middle" font-family="'Special Elite', 'Courier Prime', 'Courier New', monospace" font-size="34" font-weight="700" fill="#111111" letter-spacing="0.2">time</text><text x="540" y="516" text-anchor="middle" font-family="'Special Elite', 'Courier Prime', 'Courier New', monospace" font-size="34" font-weight="700" fill="#111111" letter-spacing="0.2">i was alone. so, I don&apos;t</text><text x="540" y="567" text-anchor="middle" font-family="'Special Elite', 'Courier Prime', 'Courier New', monospace" font-size="34" font-weight="700" fill="#111111" letter-spacing="0.2">care who stays or</text><text x="540" y="618" text-anchor="middle" font-family="'Special Elite', 'Courier Prime', 'Courier New', monospace" font-size="34" font-weight="700" fill="#111111" letter-spacing="0.2">leaves.</text>
+  </g>
+
+  <!-- Bottom Brand Watermark in Matching Typewriter Font (e.g. Untold Feelings) -->
+  <text x="540" y="990" text-anchor="middle" font-family="'Special Elite', 'Courier Prime', 'Courier New', monospace" font-size="24" font-weight="700" fill="#18181B" letter-spacing="0.8">Untold Feelings</text>
+</svg>

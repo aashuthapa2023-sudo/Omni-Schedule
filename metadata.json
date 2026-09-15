@@ -1,0 +1,6 @@
+{
+  "name": "OmniNiche: Unlimited Multi-Page FB Quote & Aesthetic Factory",
+  "description": "Autonomous non-repeating quote factory and scheduler for multiple Facebook niche pages with Perchance-style AI aesthetic imagery, sub-topic rotators, deduplication engine, and auto-cadence publishing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

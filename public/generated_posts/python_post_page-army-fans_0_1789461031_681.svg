@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.95"/>
+    </filter>
+    <linearGradient id="vignette" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050811" stop-opacity="0.82"/>
+      <stop offset="50%" stop-color="#000000" stop-opacity="0.70"/>
+      <stop offset="100%" stop-color="#020408" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- High-Res Niche Base Image Pulled by Python Engine -->
+  <image href="https://images.pexels.com/photos/17266185/pexels-photo-17266185.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" x="0" y="0" width="1080" height="1080" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Chiaroscuro Contrast Grading Layer -->
+  <rect x="0" y="0" width="1080" height="1080" fill="url(#vignette)"/>
+
+  <!-- Atmospheric Border Accent -->
+  <rect x="24" y="24" width="1032" height="1032" fill="none" stroke="#F59E0B" stroke-opacity="0.40" stroke-width="1.5" rx="8"/>
+
+  <!-- Top Category Tag -->
+  <g transform="translate(540, 110)">
+    <rect x="-105" y="-18" width="210" height="36" rx="6" fill="#F59E0B" fill-opacity="0.95"/>
+    <text x="0" y="5" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="900" fill="#0A0A0A" letter-spacing="2">MILITARY</text>
+  </g>
+
+  <!-- Quote Typography -->
+  <g>
+    <text x="540" y="446" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#FFFFFF" letter-spacing="-0.3" filter="url(#drop-shadow)">In the midst of chaos, there is</text><text x="540" y="510" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#FFFFFF" letter-spacing="-0.3" filter="url(#drop-shadow)">also opportunity.</text>
+  </g>
+
+  <!-- Gold/Accent Divider Line -->
+  <line x1="430" y1="599" x2="650" y2="599" stroke="url(#accent-grad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Author Attribution -->
+  <text x="540" y="649" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#FCD34D" letter-spacing="1.5">SUN TZU</text>
+
+  <!-- Footer Brand Handle & Engine Citation -->
+  <g transform="translate(540, 990)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#94A3B8" letter-spacing="1.5">@USArmy</text>
+    <text x="0" y="24" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="500" fill="#64748B" letter-spacing="1">ARCHIVE: Pexels API (Yakup  Polat) • ZERO REPETITION GUARANTEED</text>
+  </g>
+</svg>
