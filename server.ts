@@ -548,6 +548,55 @@ function getGeminiClient(): GoogleGenAI | null {
   });
 }
 
+// Resilient wrapper for Gemini content generation with model cascade and 429/overload fallback
+async function safeGeminiGenerate(params: {
+  contents: string | any;
+  config?: any;
+  preferredModel?: string;
+}): Promise<string | null> {
+  const ai = getGeminiClient();
+  if (!ai) return null;
+
+  const candidateModels = [
+    params.preferredModel || "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
+    "gemini-3.1-flash-lite",
+  ];
+
+  // Remove duplicates while preserving priority order
+  const modelsToTry = Array.from(new Set(candidateModels));
+
+  for (const model of modelsToTry) {
+    try {
+      const response = await ai.models.generateContent({
+        model,
+        contents: params.contents,
+        config: params.config,
+      });
+      if (response && response.text) {
+        return response.text;
+      }
+    } catch (err: any) {
+      const errMsg = err?.message || String(err);
+      const isQuotaOrOverload =
+        errMsg.includes("429") ||
+        errMsg.includes("RESOURCE_EXHAUSTED") ||
+        errMsg.includes("quota") ||
+        errMsg.includes("overloaded") ||
+        errMsg.includes("503");
+
+      if (isQuotaOrOverload) {
+        console.warn(`[Gemini Engine] Model ${model} rate-limited or quota reached. Trying next model or local database fallback...`);
+      } else {
+        console.warn(`[Gemini Engine] Notice on ${model}:`, errMsg);
+      }
+      // Continue loop to try next model
+    }
+  }
+
+  return null;
+}
+
 // Health check
 app.get("/api/health", (_req, res) => {
   res.json({
@@ -1275,8 +1324,8 @@ CRITICAL RULE: Never repeat any quote. Exclude: ${excludeSignatures.join(", ") |
 
 Return JSON array of items with: quote, author, imagePrompt, hookLine, caption, suggestedTemplate: "${fixedTemplate}", tags (array).`;
 
-        const response = await ai.models.generateContent({
-          model: "gemini-3.1-flash-lite",
+        const rawJsonText = await safeGeminiGenerate({
+          preferredModel: "gemini-2.5-flash",
           contents: prompt,
           config: {
             responseMimeType: "application/json",
@@ -1299,9 +1348,11 @@ Return JSON array of items with: quote, author, imagePrompt, hookLine, caption, 
           },
         });
 
-        const parsed = JSON.parse(response.text || "[]");
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          generatedQuotePackages = parsed;
+        if (rawJsonText) {
+          const parsed = JSON.parse(rawJsonText);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            generatedQuotePackages = parsed;
+          }
         }
       } catch (genErr) {
         console.warn(`[24/7 Daemon] AI auto-synthesis notice for ${page.name}:`, genErr);
@@ -2300,8 +2351,8 @@ For each post provide:
 6. "suggestedTemplate": "${fixedTemplate}".
 7. "tags": 3 topical tags.`;
 
-        const response = await ai.models.generateContent({
-          model: "gemini-3.1-flash-lite",
+        const rawJsonText = await safeGeminiGenerate({
+          preferredModel: "gemini-2.5-flash",
           contents: prompt,
           config: {
             responseMimeType: "application/json",
@@ -2327,9 +2378,11 @@ For each post provide:
           },
         });
 
-        const parsed = JSON.parse(response.text || "[]");
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          generatedQuotePackages = parsed;
+        if (rawJsonText) {
+          const parsed = JSON.parse(rawJsonText);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            generatedQuotePackages = parsed;
+          }
         }
       } catch (err) {
         console.warn("Gemini generation notice:", err);
@@ -2598,8 +2651,8 @@ For each post provide:
 6. "suggestedTemplate": "${fixedTemplate}".
 7. "tags": 3 topical tags.`;
 
-          const response = await ai.models.generateContent({
-            model: "gemini-3.1-flash-lite",
+          const rawJsonText = await safeGeminiGenerate({
+            preferredModel: "gemini-2.5-flash",
             contents: prompt,
             config: {
               responseMimeType: "application/json",
@@ -2625,9 +2678,11 @@ For each post provide:
             },
           });
 
-          const parsed = JSON.parse(response.text || "[]");
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            generatedQuotePackages = parsed;
+          if (rawJsonText) {
+            const parsed = JSON.parse(rawJsonText);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+              generatedQuotePackages = parsed;
+            }
           }
         } catch (err) {
           console.warn(`AI generation for page ${page.name} notice:`, err);
